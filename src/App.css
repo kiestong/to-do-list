@@ -1,0 +1,19 @@
+p {
+  color: brown;
+}
+
+.deleteButton {
+  background-color: red;
+  color: whitesmoke;
+  border-color: white;
+  border-radius: 50px;
+}
+.addToDoItem {
+  display: flex;
+  flex-direction: row;
+}
+
+.ToDo {
+  display: flex;
+  flex-direction: row;
+}

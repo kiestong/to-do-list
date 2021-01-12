@@ -11,9 +11,15 @@ p {
 .addToDoItem {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .ToDo {
   display: flex;
   flex-direction: row;
+}
+
+.myCssStyleSheet {
+  margin: 300;
+  color: rebeccapurple;
 }

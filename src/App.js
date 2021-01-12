@@ -17,6 +17,7 @@ function App() {
     const newTasks = tasks.filter((task) => task.id !== taskId);
     setTasks(newTasks);
   }
+
   function onAdd(description) {
     setId(id + 1);
 
@@ -31,7 +32,7 @@ function App() {
   }
 
   return (
-    <Container style={{ flex: 1, width: "100%" }}>
+    <div>
       <AppBar position="static">
         <Typography variant="h6" color="inherit">
           To Do List
@@ -48,7 +49,7 @@ function App() {
           onDelete={onDelete}
         ></ToDoItem>
       ))}
-    </Container>
+    </div>
   );
 }
 
